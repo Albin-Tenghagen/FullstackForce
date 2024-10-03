@@ -96,6 +96,22 @@ footer {
 
 /*  */
 
+
+.portfolio-item img {
+    border-radius: 50%;
+    width: 60%;
+    margin-bottom: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
 /* Responsive layout for smaller screens */
 @media (max-width: 768px) {
     .about-container {
@@ -108,7 +124,4 @@ footer {
     }
 }
 
-.portfolio-item img {
-    border-radius: 50%;
-    width: 60%;
-}
+
