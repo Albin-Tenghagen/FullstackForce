@@ -8,6 +8,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 h2 {
     text-align: center;
     margin: 1.5rem;
@@ -102,4 +106,9 @@ footer {
     .about-text {
         margin-top: 1rem; /* Adds spacing between the image and text */
     }
+}
+
+.portfolio-item img {
+    border-radius: 50%;
+    width: 60%;
 }
