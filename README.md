@@ -17,6 +17,8 @@ Versionshantering med Git:
 Använd Git för versionshantering, inklusive branching och merging.
 Visa på god praxis för commit-meddelanden och kodgranskning.
 
+
+
 Extra funktionalitet (frivilligt):
 
 AI-drivna Funktioner:
@@ -24,6 +26,7 @@ Implementera en funktion i applikationen som utnyttjar AI (t.ex. en chatbot, rek
 
 Prestanda och Optimering:
 Optimera applikationen för tillgänglighetsprestanda, t.ex. snabb laddning för användare med långsamma uppkopplingar.
+
 
 Veckans ämnen ni ska visa att ni har kunskap om:
 
