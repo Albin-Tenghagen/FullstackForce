@@ -3,12 +3,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-
+    background-color: antiquewhite;
     color: #333;
 }
 /* Här börjar resan */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
-    background-color: #f1f1f1;
+    background-color: antiquewhite;
     color: white;
     padding: 1rem;
     display: flex;
@@ -35,7 +41,7 @@ header nav ul li a {
 }
 
 footer {
-    background-color: #f1f1f1;
+    background-color: antiquewhite;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 3rem;
@@ -45,6 +51,18 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     color: #760a16;
 }
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.member-pics img {
+    border-radius: 50%;
+    width: 40%;
+    margin-bottom: 0.8rem;
+}   
 
 /* här slutar resan */
 
@@ -72,7 +90,7 @@ h1 {
 section {
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 6px rgba(0,0,0, 0.5);
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease;
@@ -112,6 +130,19 @@ article p {
     color: #7f8c8d;
 }
 
+#contact-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Två kolumner på större skärmar */
+    gap: 5%; /* Använder procent för mellanrum */
+    max-width: 90%; /* Sektionen tar upp max 90% av skärmens bredd */
+    margin: 5% auto;
+    padding: 5%;
+}
+
+#team-contact {
+    grid-column: span 2;
+}
+
 /* Responsiv design */
 @media (max-width: 768px) {
     .members-wrapper {
@@ -122,5 +153,6 @@ article p {
     h1 {
         font-size: 2rem;
     }
+    
 }
 
