@@ -3,9 +3,50 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+
     color: #333;
 }
+/* Här börjar resan */
+header {
+    background-color: #f1f1f1;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 14px;
+    border-radius: 8px;
+    background-color: #760a16;
+    box-shadow: 1px 1px 6px rgba(0,0,0, 0.5);
+}
+
+footer {
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 3rem;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #760a16;
+}
+
+/* här slutar resan */
 
 /* Wrapper för medlemmar - layout */
 .members-wrapper {
@@ -19,7 +60,7 @@ body {
 }
 
 /* Stylar huvudrubriken */
-h1 {
+#members-heading {
     grid-column: 1 / -1;  /* H1 sträcker sig över alla kolumner */
     text-align: center;
     margin: 20px 0;
