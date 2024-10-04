@@ -127,7 +127,7 @@ footer {
 
 
 /* Responsive layout for smaller screens */
-@media (max-width: 768px) {
+@media (min-width:426px) and (max-width: 912px) {
     .about-container {
         grid-template-columns: 1fr; /* Stacks the columns on top of each other */
         text-align: center; /* Optional: Center-align the text for a better mobile view */
@@ -136,6 +136,24 @@ footer {
     .about-text {
         margin-top: 1rem; /* Adds spacing between the image and text */
     }
+
+
+
+    .grid-portfolio {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+
 }
 
+@media (max-width:425px){
+        .about-container {
+            grid-template-columns: 1fr; /* Stacks the columns on top of each other */
+            text-align: center; /* Optional: Center-align the text for a better mobile view */
+        }
+    
+}
 
+/* 696 and 912 */

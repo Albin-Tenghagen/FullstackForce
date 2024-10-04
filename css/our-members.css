@@ -139,6 +139,13 @@ article p {
     padding: 5%;
 }
 
+#location {
+    padding: 1 rem;
+    background-color: antiquewhite;
+    box-shadow: 1px 1px 6px rgba(0,0,0, 0.5);
+
+}
+
 #team-contact {
     grid-column: span 2;
 }
