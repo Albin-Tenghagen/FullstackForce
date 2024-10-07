@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: antiquewhite;
     color: #333;
+    overflow-x: hidden;
 }
 /* Här börjar resan */
 * {
@@ -132,12 +133,18 @@ article p {
 
 #contact-info {
     display: grid;
+    box-sizing: content-box;
     grid-template-columns: repeat(2, 1fr); /* Två kolumner på större skärmar */
-    gap: 5%; /* Använder procent för mellanrum */
+    gap: 3%; /* Använder procent för mellanrum */
     max-width: 90%; /* Sektionen tar upp max 90% av skärmens bredd */
     margin: 5% auto;
     padding: 5%;
 }
+ 
+.members-info {
+    word-break: normal;
+    display: block;
+} 
 
 #location {
     padding: 1 rem;
